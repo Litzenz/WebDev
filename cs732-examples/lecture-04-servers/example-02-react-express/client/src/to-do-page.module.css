@@ -1,0 +1,12 @@
+.addTodoForm {
+    width: 100%;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: auto 1fr;
+    column-gap: var(--std-spacing);
+}
+
+.addTodoForm label {
+    width: 100%;
+    text-align: right;
+}

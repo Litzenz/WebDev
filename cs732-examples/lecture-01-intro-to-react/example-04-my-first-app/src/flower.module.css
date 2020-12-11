@@ -1,0 +1,16 @@
+.flower {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    animation: rotate 3s linear 0s infinite;
+}
+
+.flower > img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

@@ -1,0 +1,47 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 100%;
+    grid-auto-rows: auto;
+    /* column-gap: 20px; */
+}
+
+.container > aside {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.container > aside a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px 20px;
+    font-size: 120%;
+    transition: 0.5s ease;
+}
+
+.container > aside a:not(.activeLink) {
+    color: darkslategray;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container > aside a:hover, .activeLink {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.container > main {
+    grid-row: 1;
+    grid-column: 2;
+    /* box-sizing: border-box; */
+    /* border: 1px solid red; */
+    margin: 10px;
+}

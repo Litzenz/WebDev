@@ -1,0 +1,29 @@
+{
+  "name": "example-02-redux-mongo-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.11",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^25.5.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "jest": "^25.5.2",
+    "jest-fetch-mock": "^3.0.3",
+    "mongodb-memory-server": "^6.5.2"
+  }
+}
