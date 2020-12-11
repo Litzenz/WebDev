@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+#root {
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr;
+}
